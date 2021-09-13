@@ -8,7 +8,7 @@ function calculateHyp(a,b){
 };
 
 function clickHandlerHyp(){
-    const hyp = calculateHyp(inputs[0].value, inputs[1].value);
+    const hyp = calculateHyp(Number(inputs[0].value), Number(inputs[1].value));
     output.innerText = "The length of the hypotenuse is " + hyp;
 };
 
