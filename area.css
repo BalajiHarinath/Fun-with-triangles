@@ -45,7 +45,7 @@ nav h2{
 
 .area-container .header1{
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 1.5rem;
 }
 
@@ -61,6 +61,7 @@ nav h2{
     text-align: center;
     padding-bottom: 0.5rem;
     font-size: large;
+    font-weight: bold;
     color: var(--secondary-color);
 }
 
@@ -82,6 +83,6 @@ nav h2{
 }
 
 footer p{
-    padding-top: 2rem;
+    padding-top: 6rem;
     text-align: center;
 }

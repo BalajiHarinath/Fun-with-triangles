@@ -8,17 +8,26 @@
     <link href="quiz.css" rel="stylesheet">
 </head>
 <body>
-    <h1 class="header1">Quiz on triangles</h1>
-    <h2 class="header2">For each correct answer you will get 1 point</h2>
+    <nav class="navigation">
+        <h2 class="nav-text">Fun with triangles</h2>
+        <ul class="no-bullets">
+            <li class="list-item"><a class="links" href="istriangle.html">is Triangle?</a></li>
+            <li class="list-item"><a class="links current" href="quiz.html">Triangle quiz</a></li>
+            <li class="list-item"><a class="links" href="hypotenuse.html">Hypotenuse</a></li>
+            <li class="list-item"><a class="links" href="area.html">Area of triangle</a></li>
+        </ul>
+    </nav>
+    <h1>Quiz on triangles</h1>
+    <p class="info">For each correct answer you will get 1 point<p>
     <form class="quiz-form">
         <div class="question-container">
-            <p>What is the third angle for triangle where angle1=45⁰ and angle2=45⁰</p>
+            <p class="qst">What is the third angle for triangle where angle1=45⁰ and angle2=45⁰</p>
             <label><input type="radio" name="question1" value="45⁰"/>45⁰</label>
             <label><input type="radio" name="question1" value="45⁰"/>45⁰</label>
             <label><input type="radio" name="question1" value="90⁰">90⁰</label>
         </div>
         <div class="question-container">
-            <p>If a triangle has an angle of 90⁰ what is it called?</p>
+            <p class="qst">If a triangle has an angle of 90⁰ what is it called?</p>
             <label><input type="radio" name="question2" value="acute"/>acute</label>
             <label><input type="radio" name="question2" value="obtuse"/>obtuse</label>
             <label><input type="radio" name="question2" value="right angled">right angled</label>
@@ -26,6 +35,9 @@
     </form>
     <button id="btn-ans">check</button>
     <p id="answer"></p>
+    <footer>
+        <p>© | 2021 | balaji </p>
+    </footer>
     <script src="quiz.js" type="text/javascript"></script>
 </body>
 </html>
