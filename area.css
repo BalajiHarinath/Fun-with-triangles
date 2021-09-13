@@ -50,7 +50,7 @@ nav h2{
 }
 
 .area-container .side{
-    width: 20vw;
+    width: 10vw;
     margin: auto;
     margin-bottom: 2rem;
     height: 30px;
@@ -68,12 +68,20 @@ nav h2{
     margin: auto;
     width: 10vw;
     height: 40px;
+    font-weight: bolder;
     border-radius: 0.7rem;
     color: var(--secondary-color);
     border-color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
+#area-ans{
+    margin: auto;
+    font-weight: bolder;
+    padding : 1rem 0rem;
+}
+
 footer p{
+    padding-top: 2rem;
     text-align: center;
 }

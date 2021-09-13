@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color: #FECACA;
+    --secondary-color: #312E81;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+nav{
+    border: 1px solid #FECACA;
+    background-color: #FECACA;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+nav h2{
+    color: var(--secondary-color);
+}
+
+.no-bullets{
+    list-style: none;
+    text-align: right;
+}
+
+.list-item{
+    display: inline;
+    padding-right: 1rem;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.current{
+    font-weight: bolder;
+}
+
+.is-triangle-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.is-triangle-container #header1{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.is-triangle-container p{
+    text-align: center;
+}
+
+.is-triangle-container .angles{
+    width: 20vw;
+    margin: auto;
+    margin-bottom: 1rem;
+    height: 25px;
+    border-radius: 0.5rem;
+}
+
+.is-triangle-container .angles-label{
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: large;
+    color: var(--secondary-color);
+}
+
+.is-triangle-container #btn-angle{
+    margin: auto;
+    width: 10vw;
+    height: 40px;
+    font-weight: bolder;
+    margin-top: 1.5rem;
+    border-radius: 0.7rem;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+#message{
+    margin: auto;
+    font-weight: bolder;
+    padding : 1rem 0rem;
+}
+
+footer p{
+    padding-top: 2rem;
+    text-align: center;
+}

@@ -8,16 +8,30 @@
     <link href="istriangle.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1 id="#header1">Angles of triangle</h1>
-    <h2 id="header2">A polygon is said to be a triangle if the sum of its internal angles is 180⁰</h2>
-    <label for="angles">Angle1</label>
-    <input type="number" class="angles"/>
-    <label for="angles">Angle2</label>
-    <input type="number" class="angles"/>
-    <label for="angles">Angle3</label>
-    <input type="number" class="angles"/>
-    <button id="btn-angle">is Triangle?</button>
-    <p id="message"></p>
+    <nav class="navigation">
+        <h2 class="nav-text">Fun with triangles</h2>
+        <ul class="no-bullets">
+            <li class="list-item"><a class="links current" href="istriangle.html">is Triangle?</a></li>
+            <li class="list-item"><a class="links" href="quiz.html">Triangle quiz</a></li>
+            <li class="list-item"><a class="links" href="hypotenuse.html">Hypotenuse</a></li>
+            <li class="list-item"><a class="links" href="area.html">Area of triangle</a></li>
+        </ul>
+    </nav>
+    <div class="is-triangle-container">
+        <h1 id="header1">Angles of triangle</h1>
+        <p id="header3">A polygon is said to be a triangle if the sum of its internal angles is 180⁰</p>
+        <label class="angles-label" for="angles">Angle1</label>
+        <input type="number" class="angles"/>
+        <label class="angles-label" for="angles">Angle2</label>
+        <input type="number" class="angles"/>
+        <label class="angles-label" for="angles">Angle3</label>
+        <input type="number" class="angles"/>
+        <button id="btn-angle">is Triangle?</button>
+        <p id="message"></p>
+    </div>
     <script src="/istriangle.js" type="text/javascript"></script>
+    <footer>
+        <p>© | 2021 | balaji </p>
+    </footer>
 </body>
 </html>
