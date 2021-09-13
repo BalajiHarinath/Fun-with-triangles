@@ -14,4 +14,4 @@ function clickHandlerAngles(){
         output.innerText = "Oops!! it is not a triangle."
     }
 };
-button.addEventListener("click",clickHandlerAngles)
+button.addEventListener("click",clickHandlerAngles);
