@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-form");
 const buttonQuiz = document.querySelector("#btn-ans");
 const output = document.querySelector("#answer");
 
-const ans = ["90⁰", "right angled"];
+const ans = ["90⁰", "right angled", "obtuse", "equilateral"];
 
 function clickHandlerQuiz(){
     let score=0;
