@@ -4,7 +4,7 @@ const output = document.querySelector("#answer");
 
 const ans = ["90⁰", "right angled", "obtuse", "equilateral"];
 
-function clickHandlerQuiz(){
+const clickHandlerQuiz = () => {
     let score=0;
     let index=0;
     const formResults = new FormData(quizForm);
@@ -13,7 +13,7 @@ function clickHandlerQuiz(){
             score++;
         }
     }
-    output.innerText = "Your score is " + score;
+    output.innerText = `Your score is ${score}`;
 };
 
 buttonQuiz.addEventListener("click", clickHandlerQuiz);
